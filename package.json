@@ -1,0 +1,42 @@
+{
+  "name": "reason-react-native-circle-slider",
+  "version": "1.1.1",
+  "description": "Bucklescript bindings for react-native-circle-slider",
+  "main": "index.js",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "bs-platform": "7.0.0",
+    "jest": "25.3.0",
+    "@glennsl/bs-jest": "0.5.1",
+    "react-native-circle-slider": "^1.1.0",
+    "reason-react": "^0.7.0"
+  },
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zetamorph/reason-react-native-circle-slider.git"
+  },
+  "keywords": [
+    "bs",
+    "reasonml",
+    "bucklescript",
+    "react-native",
+    "slider",
+    "circle-slider"
+  ],
+  "files": [
+    "bsconfig.json",
+    "src/CircleSlider.re"
+  ],
+  "author": "Johannes Loewe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zetamorph/reason-react-native-circle-slider/issues"
+  },
+  "homepage": "https://github.com/zetamorph/reason-react-native-circle-slider#readme"
+}
